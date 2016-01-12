@@ -1,0 +1,41 @@
+{
+  "name": "bootprint-integration-test",
+  "version": "0.0.0",
+  "description": "Test for the commandline of bootprint and bootprint-swagger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nknapp/bootprint-integration-test.git"
+  },
+  "author": {
+    "name": "Nils Knappmeier",
+    "email": "npm@knappi.org",
+    "url": "https://github.com/nknapp"
+  },
+  "bugs": {
+    "url": "https://github.com/nknapp/bootprint-integration-test/issues"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "standard --version || npm -g install standard",
+    "test": "mocha && standard",
+    "preformat": "standard --version || npm -g install standard",
+    "format": "standard --format"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "standard": {
+    "ignore": [
+      "spec/fixtures/**"
+    ]
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "bin"
+  ],
+  "keywords": [  ]
+}
