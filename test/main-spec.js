@@ -1,19 +1,16 @@
-/*!
- * bootprint-integration-test <https://github.com/nknapp/bootprint-integration-test>
- *
- * Copyright (c) 2016 Nils Knappmeier.
- * Released under the MIT license.
- */
-
 /* global describe */
-// /* global it */
-// /* global xdescribe */
-// /* global xit */
+/* global it */
 
-'use strict'
+var fs = require('fs')
+var path = require('path')
+var cp = require('child_process')
 
-var bootprintIntegrationTest = require('../')
-
-describe('bootprint-integration-test:', function () {
-  // body
+describe('the bootprint module:', function () {
+  fs.readdirSync(__dirname, function (file) {
+    if (path.extname(file) === '.sh') {
+      it('spec ' + file + ' should run without errors', function () {
+        cp.execFileSync(path.join(__dirname, file))
+      })
+    }
+  })
 })
