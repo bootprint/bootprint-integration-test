@@ -16,16 +16,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "pretest": "standard --version || npm -g install standard",
-    "test": "mocha && standard",
-    "preformat": "standard --version || npm -g install standard",
-    "format": "standard --format"
+    "test": "./run-test.sh"
   },
   "dependencies": {},
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.3.4"
-  },
+  "devDependencies": {},
   "standard": {
     "ignore": [
       "spec/fixtures/**"
