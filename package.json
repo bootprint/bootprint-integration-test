@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/nknapp/bootprint-integration-test.git"
   },
+  "private": true,
   "author": {
     "name": "Nils Knappmeier",
     "email": "npm@knappi.org",
