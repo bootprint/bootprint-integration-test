@@ -6,6 +6,4 @@ node_js:
   - "iojs"
   - "4"
   - "5"
-before_script:
-  - npm install standard
-  - standard
+# Default script "npm test" is run 
