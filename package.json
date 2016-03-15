@@ -4,7 +4,7 @@
   "description": "Test for the commandline of bootprint and bootprint-swagger",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nknapp/bootprint-integration-test.git"
+    "url": "https://github.com/bootprint/bootprint-integration-test.git"
   },
   "private": true,
   "author": {
@@ -13,7 +13,7 @@
     "url": "https://github.com/nknapp"
   },
   "bugs": {
-    "url": "https://github.com/nknapp/bootprint-integration-test/issues"
+    "url": "https://github.com/bootprint/bootprint-integration-test/issues"
   },
   "license": "MIT",
   "scripts": {

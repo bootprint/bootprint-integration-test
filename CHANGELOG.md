@@ -2,5 +2,5 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Upcoming
+<a name="current-release"></a>
 ### Initial version
