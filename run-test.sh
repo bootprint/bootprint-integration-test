@@ -4,6 +4,7 @@ npm install -g bootprint || exit 1
 npm install -g bootprint-openapi || exit 1
 npm install -g bootprint-swagger || exit 1
 
+npm ls -g
 
 function testBootprint() {
     
